@@ -51,7 +51,7 @@
             this.b1.Size = new System.Drawing.Size(588, 40);
             this.b1.TabIndex = 0;
             this.b1.Tag = "0";
-            this.b1.Text = "Frame";
+            this.b1.Text = "Item1";
             this.b1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.b1.UseVisualStyleBackColor = false;
             this.b1.Click += new System.EventHandler(this.ExpandMenu1_Click);
@@ -70,7 +70,7 @@
             this.b2.Size = new System.Drawing.Size(267, 23);
             this.b2.TabIndex = 1;
             this.b2.Tag = "0";
-            this.b2.Text = "Glass";
+            this.b2.Text = "Item2";
             this.b2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.b2.UseVisualStyleBackColor = false;
             this.b2.Click += new System.EventHandler(this.ExpandMenu2_Click);
@@ -89,7 +89,7 @@
             this.b3.Size = new System.Drawing.Size(267, 23);
             this.b3.TabIndex = 2;
             this.b3.Tag = "0";
-            this.b3.Text = "Furniture";
+            this.b3.Text = "Item3";
             this.b3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.b3.UseVisualStyleBackColor = false;
             this.b3.Click += new System.EventHandler(this.ExpandMenu3_Click);
@@ -121,7 +121,7 @@
             this.p3.TabIndex = 5;
             this.p3.Visible = false;
             // 
-            // fExpandMenuDemo
+            // fDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,7 +133,7 @@
             this.Controls.Add(this.b3);
             this.Controls.Add(this.b2);
             this.Controls.Add(this.b1);
-            this.Name = "fExpandMenuDemo";
+            this.Name = "fDemo";
             this.Text = "ExpandMenu Demo";
             this.ResumeLayout(false);
 
