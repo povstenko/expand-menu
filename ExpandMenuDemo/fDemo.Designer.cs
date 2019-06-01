@@ -35,6 +35,12 @@
             this.p1 = new System.Windows.Forms.Panel();
             this.p2 = new System.Windows.Forms.Panel();
             this.p3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.p1.SuspendLayout();
+            this.p2.SuspendLayout();
+            this.p3.SuspendLayout();
             this.SuspendLayout();
             // 
             // b1
@@ -96,7 +102,8 @@
             // 
             // p1
             // 
-            this.p1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.p1.BackColor = System.Drawing.Color.Silver;
+            this.p1.Controls.Add(this.label1);
             this.p1.Location = new System.Drawing.Point(12, 41);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(267, 100);
@@ -105,7 +112,8 @@
             // 
             // p2
             // 
-            this.p2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.p2.BackColor = System.Drawing.Color.Silver;
+            this.p2.Controls.Add(this.label2);
             this.p2.Location = new System.Drawing.Point(12, 176);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(267, 100);
@@ -114,12 +122,40 @@
             // 
             // p3
             // 
-            this.p3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.p3.BackColor = System.Drawing.Color.Silver;
+            this.p3.Controls.Add(this.label3);
             this.p3.Location = new System.Drawing.Point(12, 311);
             this.p3.Name = "p3";
             this.p3.Size = new System.Drawing.Size(267, 100);
             this.p3.TabIndex = 5;
             this.p3.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "content1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "content2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "content3";
             // 
             // fDemo
             // 
@@ -135,6 +171,12 @@
             this.Controls.Add(this.b1);
             this.Name = "fDemo";
             this.Text = "ExpandMenu Demo";
+            this.p1.ResumeLayout(false);
+            this.p1.PerformLayout();
+            this.p2.ResumeLayout(false);
+            this.p2.PerformLayout();
+            this.p3.ResumeLayout(false);
+            this.p3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -147,6 +189,9 @@
         private System.Windows.Forms.Panel p1;
         private System.Windows.Forms.Panel p2;
         private System.Windows.Forms.Panel p3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
